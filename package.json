@@ -2,7 +2,7 @@
   "name": "react-use-loadtime",
   "version": "1.0.0",
   "description": "React hook for Load time",
-  "main": "index.js",
+  "main": "./example/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "example": "webpack-dev-server --mode development",
