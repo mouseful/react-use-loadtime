@@ -1,8 +1,17 @@
-import react from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDom from 'react-dom';
+import useLoadTime from '..';
 
 const App = () => {
-  return <div></div>;
+  const [state, setState] = useState('');
+  const [loadTime] = useLoadTime();
+
+  return (
+    <div>
+      <div>load time: {loadTime}</div>
+      <div>state: {state}</div>
+    </div>
+  );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDom.render(<App />, document.getElementById('root'));
