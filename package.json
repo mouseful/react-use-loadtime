@@ -1,8 +1,8 @@
 {
   "name": "react-use-loadtime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hook for Load time",
-  "main": "./example/index.js",
+  "main": "dist/useLoadTime",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "example": "webpack-dev-server --mode development",
@@ -14,11 +14,10 @@
     "url": "git+https://github.com/mouseful/react-use-loadtime.git"
   },
   "author": "kimsangyeon",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mouseful/react-use-loadtime/issues"
   },
-  "homepage": "https://github.com/mouseful/react-use-loadtime#readme",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
